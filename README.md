@@ -8,7 +8,7 @@ This project lets you control your PC from a Flutter app (mobile, web, or deskto
 2. **Response**: Electron hears the broadcast and replies with its IP & port.  
 3. **WebSocket**: Flutter connects via WebSocket to the Electron server.  
 4. **Selection**: In the Electron UI, you click “Connect” on your phone’s name.  
-5. **Control**: Flutter sends commands (`left`, `right`, `up`, `down`, `esc`) over WS. Electron simulates those key presses via **robotjs** and logs them.
+5. **Control**: Flutter sends commands (`left`, `right`, `esc`) over WS. Electron simulates those key presses via **robotjs** and logs them.
 
 ### Preview
 
